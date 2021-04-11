@@ -1,0 +1,1 @@
+# vaccine-availability-scraper

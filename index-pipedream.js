@@ -18,7 +18,7 @@ async function getData(day) {
 
   const url = `https://camh.vertoengage.com/engage/api/api/cac-open-clinic/v1/slots/availability?day=${new Date(
     dateToLookFor
-  ).toISOString()}&location_id=CMH&slot_type=CONGREGATE&key=e9ae7abf-1c88-479b-9c1a-2e81a21da988`;
+  ).toISOString()}&location_id=CMH&slot_type=HOTSPOT&key=e9ae7abf-1c88-479b-9c1a-2e81a21da988`;
 
   await axios(url)
     .then((response) => {
